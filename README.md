@@ -26,6 +26,12 @@ Using the Terminal or Command Prompt use pip install;
   
   tkinter
 
+If you want to make the code into a desktop app use auto-py-to-exe
+
+This is gotten by using the command:
+
+- pip install auto-py-to-exe in the commandprompt.
+
 ## *How it funktions*
 
 The code just ask for an input. The input should be a task that is going to be done.
