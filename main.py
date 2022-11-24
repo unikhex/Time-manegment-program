@@ -1,5 +1,6 @@
 import tkinter
 from tkinter import *
+# theimports used in this code
 
 root= Tk()
 root.title("GET THESE DONE")
@@ -17,6 +18,8 @@ def addTask():
             taskfile.write(f"\n{task}")
             task_list.append(task)
             listbox.insert( END, task)
+# this is the function that saves the writte input and adds it onto a list that will be viewed on screen
+# it saves the input in a separate file
 
 
 def deleteTask():
@@ -28,7 +31,7 @@ def deleteTask():
             for task in task_list:
                 taskfile.write(task+"\n")
         listbox.delete( ANCHOR)
-            
+# deletes inputs that we are already finished with(makes it so that completed tasks can be deleted)            
 
 
 def openTaskFile():
@@ -45,6 +48,8 @@ def openTaskFile():
         file=open('tasklist.txt','w')
 
         file.close()
+# this function reads and writes  what is on the file that we are using depending on the situation before(if there was something written on the file before it will read it and displays it and if not it saves your input into the file then displays it)
+
 #icon
 Image_icon=PhotoImage(file="Images/task.png")
 root.iconphoto(False,Image_icon)
@@ -86,19 +91,14 @@ scrollbar.pack(side=RIGHT   ,fill=BOTH)
 
 listbox.config(yscrollcommand=scrollbar.set)
 scrollbar.config(command=listbox.yview)
+# The scroll
 
 openTaskFile()
 
 #delete
 Delete_icon=PhotoImage(file="Images/delete.png")
 Button(root,image=Delete_icon,bd=0,command=deleteTask).pack(side=BOTTOM,pady=13)
-
-
-
-
-
-
-
+#The above are mostly how the app looks like, which colours it has and which buttons it has.
 
 
 root.mainloop()
