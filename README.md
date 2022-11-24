@@ -78,6 +78,7 @@ Had to install pyinstaller using pip.(it didnt work)
 Had to install auto-py-to-exe(This one worked)
 
 v_4.1
+
 Completed.
 
 No bugs.
