@@ -16,7 +16,7 @@ Tkinter
 
 install tkinter
 
-If you want to make the code into a desktop app; 
+If you want to make the code into a desktop app;
 
 install auto-py-to-exe or pipisntaller
 
@@ -98,4 +98,3 @@ Zion Awino /(unikhex-github)
 
 - [Email] (awinozion85@gmail.com)
 - [Project-Link] (<https://github.com/unikhex/Time-manegment-program>)
-
