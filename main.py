@@ -8,6 +8,7 @@ root.geometry("400x650+400+100") #size
 root.resizable(False,False)#not resizible so that the icons dont move away(makes the app look ugly)
 #root is our window object(this is mostly for me to know where to write the code, knowing the borders)
 
+btn = Button(root,text="Open Calender",command=open).pack
 task_list=[]
 
 def addTask():
