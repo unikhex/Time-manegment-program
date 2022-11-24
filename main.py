@@ -43,6 +43,7 @@ def openTaskFile():
                 listbox.insert(END ,task)
     except:
         file=open('tasklist.txt','w')
+
         file.close()
 #icon
 Image_icon=PhotoImage(file="Images/task.png")
