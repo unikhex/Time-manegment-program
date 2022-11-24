@@ -32,7 +32,7 @@ This is gotten by using the command:
 
 - pip install auto-py-to-exe in the commandprompt.
 
-## *How it funktions*
+## *How it functions*
 
 The code just ask for an input. The input is then displayed as a task to be done.
 
