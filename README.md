@@ -34,13 +34,15 @@ This is gotten by using the command:
 
 ## *How it funktions*
 
-The code just ask for an input. The input should be a task that is going to be done.
+The code just ask for an input. The input is then displayed as a task to be done.
 
-On the code screen you can add tasks that are to be done. It also possible to delete completed tasks.
+On the display you can add tasks.
+
+ It also possible to delete completed tasks.
 
 ## *To Do*
 
-Currently it is possible to addd and delete tasks.
+Currently it is possible to add and delete tasks.
 
 I would have liked to add a calander in this app. So as it is possible to see when the tasks should be done.
 
@@ -94,6 +96,10 @@ No bugs.
 Didn't encounter so many problems with the coding it was more of the installation problems again.
 
 - Fixed by checking my PATHS
+
+My spelling mistakes made is so that some of the code didn't work since the variables that iwas writing didn't match.
+
+-Got fixed by me reading the code a couples of times while questioning myself
 
 ## *License*
 
