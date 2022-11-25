@@ -30,7 +30,9 @@ If you want to make the code into a desktop app use auto-py-to-exe
 
 This is gotten by using the command:
 
-- pip install auto-py-to-exe in the commandprompt.
+```bash
+    pip install auto-py-to-exe
+```
 
 ## *How it functions*
 
@@ -45,6 +47,8 @@ On the display you can add tasks.
 Currently it is possible to add and delete tasks.
 
 I would have liked to add a calander in this app. So as it is possible to see when the tasks should be done.
+
+Could be good to make it so that after writting a task it is possible to press enter for it to go directly into the tasklist instead of having to press the add button.
 
 ## *Changelog for everyversion*
 
@@ -69,11 +73,19 @@ v_2.1
 
 Figuring a way to type  the task that should be done directly on the UI.
 
+Adding a Add button
+
+Both buttons dont function, lloking for a way to fix that.
+
 v_3
 
 Can now type the tasks but cant delete already completed tasks.
 
 Looking for a way to do that.
+
+Adding a delete button
+
+Making sure it functions.
 
 Finished with that.
 
@@ -100,6 +112,16 @@ Didn't encounter so many problems with the coding it was more of the installatio
 My spelling mistakes made is so that some of the code didn't work since the variables that iwas writing didn't match.
 
 -Got fixed by me reading the code a couples of times while questioning myself
+
+Had a problem with the tasklist
+
+- it turned out that i was not recognized a part of the whole code. Had to make it into a global. This fixed the problem.
+
+Had problems with buttons in this project.Delete button didnt work
+
+- Fixed by creating a function for it and making sure it writes onto the file then deleting selected file.
+
+- But also looking into Anchor, it is a constant which helped me in writing the function for this since i could easy know the location of what is to be deleted.
 
 ## *License*
 
